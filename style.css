@@ -1,0 +1,991 @@
+body
+{
+	background-color:#F0F3F4;
+	align-items: center;
+}
+
+									/*introduction*/
+
+.corps .intro 
+{
+	display: grid;
+	margin: 0px;
+	width: 1300px;
+	background-color: #FFA4E6;
+	text-align: center;
+	align-content: center;
+}
+
+.corps .intro .intro_titre 
+{
+	display: block;
+	color: black;
+	width: 50px;
+	font: -apple-system-caption1;
+	font-size: 1.5em;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+
+
+									/*présentation*/
+
+.corps .présent
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: #F55ECC;
+	align-items: center;
+	align-content: center;
+}
+
+.corps .présent .centre 
+{
+	display: flex;
+	margin-top: 80px;
+	margin-left: 150px;
+	margin-bottom: 80px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #F4F6F7;
+	align-items: center;
+	align-content: center;
+}
+
+.corps .présent .centre .centre_text
+{
+display: block;
+/*width: 150px;*/
+margin: 30px;
+/*background-color: purple;*/
+text-align: left;
+align-content: center;
+}
+
+.corps .présent .centre .centre_text .Bienvenue
+{
+	display: block;
+	color: #F55ECC;
+	width: 5em;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	margin:20px;
+}
+
+										/*album*/
+
+/*chanson1*/
+
+.partie_album1
+{
+	display: flex;
+	height: 400px;
+	margin: 0px;
+	width: 1300px;
+	border-bottom: 2px solid #F55ECC;
+  	/*border-radius: 5px;*/
+	background-color: #E8DAEF;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album1 .titre_chanson1
+{
+	display: block;
+	color: black;
+	width: 400px;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	padding-top: 120px;
+	margin:20px 200px;
+}
+
+.partie_album1 .chanson1
+{
+	/*display: block;*/
+	/*height: 400px;*/
+	margin: 10px;
+	padding-top: 170px;
+	/*background-color: blue;*/
+	align-items: center;
+	align-content: center;
+}
+
+/*chanson2*/
+
+.partie_album2
+{
+	display: flex;
+	height: 400px;
+	margin: 0px;
+	width: 1300px;
+	border-bottom: 2px solid #F55ECC;
+	background-color: #E8DAEF;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album2 .titre_chanson2
+{
+	display: block;
+	color: black;
+	width: 400px;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	padding-top: 120px;
+	margin:20px 200px;
+}
+
+.partie_album2 .chanson2
+{
+	/*display: block;*/
+	/*height: 400px;*/
+	margin: 10px;
+	padding-top: 170px;
+	/*background-color: blue;*/
+	align-items: center;
+	align-content: center;
+}
+
+/*chanson3*/
+
+.partie_album3
+{
+	display: flex;
+	height: 400px;
+	margin: 0px;
+	width: 1300px;
+	border-bottom: 2px solid #F55ECC;
+	background-color: #E8DAEF;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album3 .titre_chanson3
+{
+	display: block;
+	color: black;
+	width: 400px;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	padding-top: 120px;
+	margin:20px 200px;
+}
+
+.partie_album3 .chanson3
+{
+	/*display: block;*/
+	/*height: 400px;*/
+	margin: 10px;
+	padding-top: 170px;
+	/*background-color: blue;*/
+	align-items: center;
+	align-content: center;
+}
+
+/*chanson4*/
+
+.partie_album4
+{
+	display: flex;
+	height: 400px;
+	margin: 0px;
+	width: 1300px;
+	background-color: #E8DAEF;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album4 .titre_chanson4
+{
+	display: block;
+	color: black;
+	width: 400px;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	padding-top: 120px;
+	margin:20px 200px;
+}
+
+.partie_album4 .chanson4
+{
+	/*display: block;*/
+	/*height: 400px;*/
+	margin: 10px;
+	padding-top: 170px;
+	/*background-color: blue;*/
+	align-items: center;
+	align-content: center;
+}
+									/*articles*/
+
+
+.article 
+{
+	display: grid;
+	height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#F55ECC;
+	/*background-image: url('IMG_3855.jpg');*/
+	text-align: center;
+	align-content: center;
+}
+
+.article .intro_article
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	margin:20px;
+}
+
+.article .prés
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+}
+
+.article_artiste
+{
+	display: grid;
+	min-height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.article_artiste .img_artiste1
+{
+	margin: 40px;
+	margin-left: 140px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article_artiste .parag_article_artiste
+{
+	display: block;
+	width: 1000px;
+	margin-bottom: 20px;
+	margin-left:140px;
+	/*background-color:purple;*/
+	text-align: left;
+	align-content: center;
+}
+
+.article_artiste .parag_article_artiste .parag_article_artiste_text
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+.premier_article
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: #0CBBAE;
+	text-align: center;
+	align-content: center;
+}
+
+.premier_article .premier_article_1
+{
+	display: block;
+	width: 700px;
+	margin: 0px;
+	background-color:#F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.premier_article .premier_article_1 .img_article1
+{
+	margin: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.premier_article .premier_article_1 .article1
+{
+	display: block;
+	width: 500px;
+	margin: 0px;
+	margin-left: 80px;
+	/*background-color:purple;*/
+	text-align: left;
+	align-content: center;
+}
+
+.premier_article .premier_article_1 .article1 .premier_article_text1
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+
+.premier_article .premier_article_2
+{
+	display: block;
+	width: 700px;
+	margin: 0px;
+	background-color:#F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.premier_article .premier_article_2 .img_article2
+{
+	margin: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.premier_article .premier_article_2 .article2
+{
+	display: block;
+	width: 500px;
+	margin: 0px;
+	margin-left: 80px;
+	/*background-color:purple;*/
+	text-align: left;
+	align-content: center;
+}
+
+.premier_article .premier_article_2 .article2 .premier_article_text2
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+
+
+
+.deuxième_article
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: #F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.deuxième_article .deuxième_article_1
+{
+	display: block;
+	width: 700px;
+	margin: 0px;
+	background-color:#F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.deuxième_article .deuxième_article_1 .img_deuxième_article1
+{
+	margin: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.deuxième_article .deuxième_article_1 .d_article1
+{
+	display: block;
+	width: 500px;
+	margin: 0px;
+	margin-left: 80px;
+	/*background-color:purple;*/
+	text-align: left;
+	align-content: center;
+}
+
+.deuxième_article .deuxième_article_1 .d_article1 .deuxième_article_text1
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+
+.deuxième_article .deuxième_article_2
+{
+	display: block;
+	width: 700px;
+	margin: 0px;
+	background-color:#F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.deuxième_article .deuxième_article_2 .img_deuxième_article2
+{
+	margin: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.deuxième_article .deuxième_article_2 .d_article2
+{
+	display: block;
+	width: 500px;
+	margin: 20px;
+	margin-left: 80px;
+	/*background-color:purple;*/
+	text-align: center;
+	align-content: center;
+}
+
+.deuxième_article .deuxième_article_2 .d_article2 .deuxième_article_text2
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+
+									/*mes artsites*/
+
+.artiste 
+{
+	display: grid;
+	height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#F55ECC;
+	text-align: center;
+	align-content: center;
+}
+
+.artiste .intro_artiste
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	margin:20px;
+}
+
+.artiste .pré
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+}
+
+
+
+.img_artistes
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: #AF7AC5;
+	text-align: center;
+	align-content: center;
+}
+
+.img_artistes .img_artistes1
+{
+	display: block;
+	width: 400px;
+	height: 700px;
+	margin: 20px 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/*background-color:#a679b9;*/
+	background-image: url(IMG_3947.JPG);
+	background-size: 100%;
+	text-align: center;
+	align-content: center;
+}
+
+.img_artistes .img_artistes1 .nom1
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+	padding-top: 600px;
+}
+
+.img_artistes .img_artistes2
+{
+	display: block;
+	width: 400px;
+	height: 700px;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/*background-color:#a679b9;*/
+	background-image: url(IMG_3948.JPG);
+	background-size: 100%;
+	text-align: center;
+	align-content: center;
+}
+
+.img_artistes .img_artistes2 .nom2
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+	padding-top: 600px;
+}
+
+.img_artistes .img_artistes3
+{
+	display: block;
+	width: 400px;
+	height: 700px;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/*background-color:#a679b9;*/
+	background-image: url(IMG_3949.JPG);
+	background-size: 100%;
+	text-align: center;
+	align-content: center;
+}
+
+.img_artistes .img_artistes3 .nom3
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+	padding-top: 600px;
+}
+
+.écoute
+{
+	display: grid;
+	min-height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#EBDEF0;
+	text-align: center;
+	align-content: center;
+}
+
+.écoute .écoute_text
+{
+	display: block;
+	width: 700px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left:100px;
+	/*background-color:#F000FF;*/
+	text-align: left;
+	align-content: center;
+}
+
+.écoute .écoute_text .écoute_text_tirte
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	margin:20px;
+}
+
+.écoute .écoute_text .écoute_text_text
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+.écoute2
+{
+	display: grid;
+	min-height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#EBDEF0;
+	text-align: center;
+	align-content: center;
+}
+
+.écoute2 .écoute2_text
+{
+	display: block;
+	width: 1000px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left:100px;
+	/*background-color:#0080FF;*/
+	text-align: left;
+	align-content: center;
+}
+
+
+.écoute2 .écoute2_text .écoute2_text_text
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+
+									/*mon feed*/
+
+.feed1 
+{
+	display: grid;
+	height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#F55ECC;
+	text-align: center;
+	align-content: center;
+}
+
+.feed1 .intro_feed
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	margin:20px;
+}
+
+.feed1 .pré_feed
+{
+	display: block;
+	color: white;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+}
+
+.img_feed
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: #F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.img_feed .img_feed1
+{
+	margin:20px 13px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_feed .img_feed2
+{
+	margin:20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_feed .img_feed3 
+{
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+.feed_text
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: #F0F3F4;
+	text-align: center;
+	align-content: center;
+}
+
+.feed_text .feed_text1
+{
+	display: block;
+	width: 400px;
+	margin: 20px;
+	margin-top: 50px;
+	/*background-color:#FFD500;*/
+	text-align: center;
+	align-content: center;
+}
+
+.feed_text .feed_text1 .réseaux1
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+}
+
+.feed_text .feed_text2
+{
+	display: block;
+	width: 400px;
+	margin: 20px;
+	margin-top: 50px;
+	/*background-color:#0080FF;*/
+	text-align: center;
+	align-content: center;
+}
+
+.feed_text .feed_text2 .réseaux2
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+}
+
+.feed_text .feed_text3
+{
+	display: block;
+	width: 400px;
+	margin: 20px;
+	margin-top: 50px;
+	/*background-color:#9700FF;*/
+	text-align: center;
+	align-content: center;
+}
+
+.feed_text .feed_text3 .réseaux3
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2em;
+	margin:20px;
+}
+
+
+
+.désc_feed1
+{
+	display: grid;
+	min-height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#E8DAEF;
+	text-align: center;
+	align-content: center;
+}
+
+.désc_feed1 .désc_feed1_text
+{
+	display: block;
+	width: 700px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left:100px;
+	/*background-color:#2E86C1;*/
+	text-align: left;
+	align-content: center;
+}
+
+.désc_feed1 .désc_feed1_text .désc_feed1_text_tirte
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	margin:20px;
+}
+
+.désc_feed1 .désc_feed1_text .désc_feed1_text_text
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+.désc_feed2
+{
+	display: grid;
+	min-height: 500px;
+	margin: 0px;
+	width: 1300px;
+	background-color:#E8DAEF;
+	text-align: center;
+	align-content: center;
+}
+
+.désc_feed2 .désc_feed2_text
+{
+	display: block;
+	width: 1000px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left:100px;
+	/*background-color:#DC7633;*/
+	text-align: left;
+	align-content: center;
+}
+
+
+.désc_feed2 .désc_feed2_text .désc_feed2_text_text
+{
+	display: block;
+	color: black;
+	font: -apple-system-caption1;
+	font-size: 2.1em;
+	margin:20px;
+}
+
+									/*conclusion*/
+
+.conclusion
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: #F55ECC;
+	align-items: center;
+	align-content: center;
+}
+
+.conclusion .conclusion_centre 
+{
+	display: flex;
+	/*width: 900px;
+	height: 700px;*/
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #F4F6F7;
+	align-items: center;
+	align-content: center;
+}
+
+.conclusion .conclusion_centre .conclusion_centre_text
+{
+display: block;
+width: 550px;
+margin: 30px;
+/*background-color: purple;*/
+text-align: left;
+align-content: center;
+}
+
+.conclusion .conclusion_centre .conclusion_centre_text .salut
+{
+	display: block;
+	color: #F55ECC;
+	width: 3em;
+	font: -apple-system-caption1;
+	font-size: 5em;
+	margin:20px;
+}
+
+									/*fin*/
+
+
+.fin
+{
+	display: flex;
+	margin: 0px;
+	width: 1300px;
+	background-color: black;
+	align-items: center;
+	align-content: center;
+}
+
+.fin .img_fin
+{
+	margin:10px;
+}
+
+.fin .text_fin
+{
+	display: grid;
+	margin: 0px;
+	margin-left: 0px;
+	background-color:black;
+	text-align: center;
+	align-content: center;
+}
+
+.fin .text_fin .propri
+{
+	display: block;
+	color: white;
+	width: 7em;
+	font: -apple-system-caption1;
+	font-size: 1.2em;
+	margin:20px;
+}
+
+.fin .text_fin1
+{
+	display: grid;
+	margin: 0px;
+	margin-left: 300px;
+	background-color:black;
+	text-align: center;
+	align-content: center;
+}
+
+.fin .text_fin1 .contact
+{
+	display: block;
+	color: white;
+	width: 3em;
+	font: -apple-system-caption1;
+	font-size: 1.2em;
+	margin:20px;
+}
+
+.fin .text_fin2
+{
+	display: grid;
+	margin: 0px;
+	margin-left: 300px;
+	background-color:black;
+	text-align: center;
+	align-content: center;
+}
+
+.fin .text_fin2 .CGU
+{
+	display: block;
+	color: white;
+	width: 3em;
+	font: -apple-system-caption1;
+	font-size: 1.2em;
+	margin:20px;
+}
+
+
